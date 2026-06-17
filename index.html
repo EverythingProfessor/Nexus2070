@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NEXUS 2070</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================================= -->
+<!-- LOADER -->
+<!-- ================================= -->
+
+<div id="loader">
+
+    <div class="loader-circle"></div>
+
+    <div class="loader-text">
+
+        <h1>NEXUS</h1>
+
+        <p>Booting Quantum Interface...</p>
+
+    </div>
+
+</div>
+
+<!-- ================================= -->
+<!-- BACKGROUND -->
+<!-- ================================= -->
+
+<div id="background">
+
+    <div id="stars"></div>
+
+    <div id="stars2"></div>
+
+    <div id="stars3"></div>
+
+    <div id="grid"></div>
+
+    <div id="aurora"></div>
+
+    <div id="noise"></div>
+
+    <div id="glow"></div>
+
+</div>
+
+<!-- ================================= -->
+<!-- PARTICLES -->
+<!-- ================================= -->
+
+<div id="particles"></div>
+
+<!-- ================================= -->
+<!-- NAVBAR -->
+<!-- ================================= -->
+
+<nav>
+
+<div class="logo">
+
+NEXUS
+
+</div>
+
+<ul>
+
+<li>Home</li>
+<li>Technology</li>
+<li>Projects</li>
+<li>Terminal</li>
+<li id="contactBtn">Contact</li>
+
+</ul>
+
+<div class="status">
+
+<div class="dot"></div>
+
+ONLINE
+
+</div>
+
+</nav>
+
+<!-- ================================= -->
+<!-- HERO -->
+<!-- ================================= -->
+
+<section id="hero">
+
+<div class="hero-left">
+
+<h1>
+
+THE FUTURE<br>
+
+IS<br>
+
+NOW
+
+</h1>
+
+<p>
+
+A futuristic interface inspired by AI,
+space technology, holography and the
+operating systems of tomorrow.
+
+</p>
+
+<div class="buttons">
+
+<button class="primary" id="enterBtn">ENTER SYSTEM</button>
+<button class="secondary" id="terminalBtn">OPEN TERMINAL</button>
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="orb">
+
+<div class="ring ring1"></div>
+<div class="ring ring2"></div>
+<div class="ring ring3"></div>
+
+<div class="core"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- DASHBOARD -->
+<!-- ================================= -->
+
+<section class="dashboard" id="dashboard">
+
+<div class="card">
+
+<h3>Quantum Core</h3>
+
+<span>98%</span>
+
+<div class="progress">
+
+<div class="fill"></div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Neural Network</h3>
+
+<span>ACTIVE</span>
+
+</div>
+
+<div class="card">
+
+<h3>Signal Strength</h3>
+
+<span>∞</span>
+
+</div>
+
+<div class="card">
+
+<h3>System Time</h3>
+
+<div id="clock">
+
+00:00:00
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- AI TERMINAL -->
+<!-- ================================= -->
+
+<section id="terminal">
+
+<div class="terminal-header">
+
+<div class="lights">
+
+<span class="red"></span>
+
+<span class="yellow"></span>
+
+<span class="green"></span>
+
+</div>
+
+AI TERMINAL
+
+</div>
+
+<div class="terminal-body">
+
+<p>> Boot Sequence Started...</p>
+
+<p>> Initializing Quantum Core...</p>
+
+<p>> Synchronizing Satellites...</p>
+
+<p>> Neural Matrix Online...</p>
+
+<p>> Welcome, Commander.</p>
+
+<div id="typing"></div>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- FEATURE GRID -->
+<!-- ================================= -->
+
+<section class="features">
+
+<div class="feature">
+
+<h2>HOLOGRAM</h2>
+
+<p>
+
+Interactive holographic elements
+with glass reflections.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h2>AI</h2>
+
+<p>
+
+Neural computing with animated
+system responses.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h2>SPACE</h2>
+
+<p>
+
+Infinite galaxies, stars and
+deep-space atmosphere.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<h2>QUANTUM</h2>
+
+<p>
+
+Inspired by futuristic computing
+concepts.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- FLOATING UI -->
+<!-- ================================= -->
+
+<div class="floating-ui left">
+
+CPU
+
+<div class="value">
+
+99%
+
+</div>
+
+</div>
+
+<div class="floating-ui right">
+
+ENERGY
+
+<div class="value">
+
+2048
+
+</div>
+
+</div>
+
+<!-- ================================= -->
+<!-- CURSOR -->
+<!-- ================================= -->
+
+<div id="cursor"></div>
+
+<div id="cursor2"></div>
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<footer>
+
+<h2>
+
+NEXUS 2070
+
+</h2>
+
+<p>
+
+Designed beyond imagination.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<div id="contactModal" class="modal hidden">
+
+    <div class="modal-box">
+
+        <div class="modal-header">
+            <span>CONTACT SYSTEM</span>
+            <button id="closeModal">✕</button>
+        </div>
+
+        <div class="modal-content">
+
+            <p>
+                📧 <span>Email:</span> nexus2070admin@outlook.com
+            </p>
+
+            <p>
+                💬 <span>Discord:</span> useful_guy
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
